@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -60,32 +60,72 @@
 
 
 	<section>
-		<div class="container __enmt">
+		<div class="container">
+
 			<div class="row">
-				<div class="col-md-5 col-sm-5">
-					<div class="text-center __enbp">
-						<p>ERS Responsibility</p>
-						<img src="assets/img/ers.svg" class="__img">
-						<p><a href="" class="btn __enap">ERS Responsibility</a></p>
-						<p class="__enc">Click here</p>
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<div class="__enylos">
+
+						<div class="text-center __enyomodhed">
+							<img src="assets/img/logo.png" class="">
+							<h4 class="modal-title">Register</h4>
+							<hr>
+						</div>
+						<form action="" method="POST" role="form" id="fileForm" class="__joiff">
+
+							<div class="form-group">
+								<label for="" class="__evla">First Name</label>
+								<input type="text" class="form-control __evfo" name="firstname" id = "txt" onkeyup = "Validate(this)" required />
+								<div id="errFirst"></div>   
+							</div><br>
+
+							<div class="form-group">
+								<label for="" class="__evla">Phone Number</label>
+								<input type="text" class="form-control __evfo" id="" name="phonenumber" id="phone" class="form-control phone" maxlength="28" onkeyup="validatephone(this);" placeholder="" required>
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__evla">Email Address</label>
+								<input type="text" class="form-control __evfo" id="" placeholder="">
+							</div><br>
+
+							<div class="form-group">
+								<label for="" class="__evla">Password </label>
+								<input type="text" class="form-control __evfo" id="" placeholder="">
+							</div>
+
+							<div>
+								<label class="check">
+									<input type="checkbox"  name="is_name">
+							  		<span class="checkmark"></span>
+									I Agree All Statement in <span>Term and Condition</span>
+								</label>
+							</div><br>
+							<div class="row">
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<div class="">
+										<button type="submit" class="btn __enmodbtn">Sign Up</button>
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<div class="__enar">
+										<a href="login.html" '>Already a Member</a>
+										<hr>
+									</div>
+								</div>
+							</div>
+						</form>
 					</div>
 				</div>
-				<div class="col-md-1 col-sm-1">
-					<div class="__enb"></div>
-				</div>
-				<div class="col-md-5 col-sm-5">
-					<div class="text-center __enbp">
-						<p>SM/Dealer Responsibility</p>
-						<img src="assets/img/sm.svg" class="">
-						<p><a href="" class="btn __enap1">SM/Dealer Responsibility</a></p>
-						<p class="__enc">Click here</p>
-					</div>
-				</div>
+				<div class="col-md-4"></div>
 			</div>
-		</div>
+		</div><br><br>
+
+		
 	</section>
 
-	<!-- <footer>
+	<footer>
 		<div class="__evfoot">
 			<div class="container">
 				<div class="row">
@@ -115,7 +155,7 @@
 				<hr>
 			</div>
 		</div>
-	</footer> --> 
+	</footer> 
 
 
 

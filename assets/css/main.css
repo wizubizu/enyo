@@ -1407,15 +1407,19 @@ border-right:5px solid rgba(0,0,0,0);
   width: 170px;
 }
 
+.__enimg img{
+  width: 428px;
+}
+
 .__evh{
   font-family: AvenirLTStd-Black;
   font-size: 58px;
   font-weight: 900;
   line-height: 1.2;
-  letter-spacing: 8px;
+  letter-spacing: 7.9px;
   color: #969696;
   text-align: right;
-  margin-top: 21%;
+  margin-top: 14%;
 }
 
 .__evh span{
@@ -1433,6 +1437,13 @@ border-right:5px solid rgba(0,0,0,0);
   border-radius: 3px;
   border: 3px solid #32355a;
   padding: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.__evbtn:hover{
+  color: #fbbc00 !important;
+  background-color: #ffffff;
+  border:3px solid #fbbc00;
 }
 
 .__evbtn1{
@@ -1446,10 +1457,13 @@ border-right:5px solid rgba(0,0,0,0);
   border-radius: 3px;
   border: 3px solid #32355a;
   padding: 10px;
+  transition: 0.3s ease-in-out;
 }
 
 .__evbtn1:hover{
-  color: #ffffff !important;
+  color: #fbbc00 !important;
+  background-color: #ffffff;
+  border:3px solid #fbbc00;
 }
 
 .__evbg{
@@ -1601,7 +1615,9 @@ border-right:5px solid rgba(0,0,0,0);
 }
 
 .__evsubbtn:hover{
-  color: #ffffff;
+  color: #fbbc00;
+  background: #ffffff;
+  border: 1px solid #fbbc00;
 }
 
 .__evfoot{
@@ -1703,7 +1719,7 @@ font-family: AvenirLTStd-Black;
 
 .__enmodbtn {
     font-family: AvenirLTStd-Black;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     letter-spacing: 1px;
     width: 155px;
@@ -1868,7 +1884,7 @@ font-size: 16px;
   line-height: 1.83;
   letter-spacing: 1.4px;
   color: #8d8d8d;
-}
+} 
 
 .__enrad p:nth-child(3){
   font-family: AvenirLTStd-Book;
@@ -1883,21 +1899,25 @@ font-size: 16px;
   margin-top: 10%;
 }
 
-.__enp{
-  font-family: AvenirLTStd-Heavy;
-  font-size: 20px;
-  font-weight: 900;
-  letter-spacing: 1.7px;
-  text-align: center;
-  color: #32355a;
+.__enp img{
+  width: 50px;
 }
 
 .__enp1{
-  font-family: AvenirLTStd-Heavy;
-  font-size: 20px;
-  font-weight: 900;
-  letter-spacing: 1.7px;
-  color: #ea4335;
+  font-family: AvenirLTStd-Medium;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 1.7px;
+    color: #ffffff;
+    background: #32355a;
+    transition: 0.3s ease-in-out;
+    margin-top: 9px;
+}
+
+.__enp1:hover{
+  background-color: #ffffff;
+  color: #30355d;
+  border: 1px solid #EFB901;
 }
 
 .__entab{
@@ -1972,6 +1992,7 @@ font-size: 16px;
   border: solid 1px #d7d7d7;
   width: 2px;
   height: 444px;
+  margin-left: 34px;
 }
 
 .__enap{
@@ -2017,4 +2038,158 @@ font-size: 16px;
 
 .__enmt{
   margin-top: 5%;
+}
+
+
+.__qusm{
+  /*margin-top: 5%;*/
+  font-size: 17px;
+  text-align: center;
+}
+
+
+/*for custom radio and check button*/
+.__radio {
+ 
+     /*display: block;*/
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+/* Hide the browser's default radio button */
+.__radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkround {
+
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff ;
+    border-color:#30355d;
+    border-style:solid;
+    border-width:2px;
+     border-radius: 50%;
+}
+
+
+/* When the radio button is checked, add a blue background */
+.__radio input:checked ~ .checkround {
+    background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkround:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.__radio input:checked ~ .checkround:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.__radio .checkround:after {
+     left: 2px;
+    top: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background:#EFB901;
+    
+}
+
+/*check box*/
+
+/* The check */
+.check {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #fff ;
+    border-color:#30355d;
+    border-style:solid;
+    border-width:2px;
+}
+
+
+
+/* When the checkbox is checked, add a blue background */
+.check input:checked ~ .checkmark {
+    background-color: #fff  ;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.check input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.check .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid ;
+    border-color:#30355d;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*end*/
+
+
+.__enylos{
+  box-shadow: 0 0 20px 9px rgba(245, 245, 245, 0.87);
+    background-color: #ffffff;
+    border: solid 1px #e4e4e4;
+    padding: 25px;
 }
