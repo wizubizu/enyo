@@ -568,6 +568,13 @@
   .__entabin {
     width: 500px;
   }
+  .__enmodbtn {
+    width: 106px;
+  }
+
+  .__enar a {
+    font-size: 11px;
+  }
 
   
 
@@ -600,6 +607,10 @@
 	.__evh {
     font-size: 30px;
     text-align: center;
+  }
+
+  .__entak{
+  text-align: center;
   }
 
   .__evbtn {
@@ -682,6 +693,10 @@
     text-align: center;
   }
 
+  .__entak{
+  text-align: center;
+  }
+
   .__evbtn {
     width: 130px;
     font-size: 13px;
@@ -762,7 +777,11 @@
   }
 
   .__enmodbtn {
-    width: 138px;
+    width: 103px;
+  }
+
+  .__enar a {
+    font-size: 11px;
   }
 
   .__entabin {

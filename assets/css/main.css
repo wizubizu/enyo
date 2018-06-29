@@ -1407,6 +1407,10 @@ border-right:5px solid rgba(0,0,0,0);
   width: 170px;
 }
 
+.__entak{
+  text-align: right;
+}
+
 .__enimg img{
   width: 428px;
 }
@@ -2177,7 +2181,7 @@ font-size: 16px;
     width: 5px;
     height: 10px;
     border: solid ;
-    border-color:#30355d;
+    border-color:#fbbc00;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
