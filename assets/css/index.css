@@ -668,6 +668,14 @@
     width: 330px;
   }
 
+  .__evpp1 {
+    margin-left: 36px;
+  }
+
+  .__evpp {
+    margin-left: 40px;
+  }
+
   
 
 
@@ -725,11 +733,13 @@
   .__evpp {
     font-size: 12px;
     text-align: center;
+    margin-left: 0px;
   }
 
   .__evpp1 {
     font-size: 14px;
     text-align: center;
+    margin-left: 0px;
   }
 
   .__evppp {

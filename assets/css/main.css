@@ -1436,8 +1436,8 @@ border-right:5px solid rgba(0,0,0,0);
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 1px;
-  background-color: #ffffff;
-  color: #32355a;
+  background-color: #32355a;
+  color: #ffffff !important;
   border-radius: 3px;
   border: 3px solid #32355a;
   padding: 10px;
@@ -1532,8 +1532,9 @@ border-right:5px solid rgba(0,0,0,0);
   font-size: 20px;
   font-weight: 900;
   letter-spacing: 1.4px;
-  text-align: right;
+  /*text-align: right;*/
   color: #32355a;
+  margin-left: 135px;
 }
 
 .__evpp1{
@@ -1542,9 +1543,10 @@ border-right:5px solid rgba(0,0,0,0);
   font-weight: 500;
   letter-spacing: 1.5px;
   line-height: 1.2;
-  text-align: right;
+  /*text-align: right;*/
   color: #454545;
   margin-top: 17px;
+  margin-left: 135px;
 }
 
 .__evppp{
@@ -2013,6 +2015,13 @@ font-size: 16px;
   background-color: #32355a;
   border: solid 1px #e0e0e0;
   margin-top: 5%;
+  transition: 0.3s ease-in-out;
+}
+
+.__enap:hover{
+  color: #fbbc00 !important;
+  background-color: #ffffff;
+  border:3px solid #fbbc00;
 }
 
 .__enap1{
@@ -2029,6 +2038,13 @@ font-size: 16px;
   background-color: #32355a;
   border: solid 1px #e0e0e0;
   margin-top: 16%;
+  transition: 0.3s ease-in-out;
+}
+
+.__enap1:hover{
+  color: #fbbc00 !important;
+  background-color: #ffffff;
+  border:3px solid #fbbc00;
 }
 
 .__enc{
