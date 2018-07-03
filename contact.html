@@ -61,58 +61,62 @@
 
 
 	<section>
-		<div class="container">
-
-			
-			<div class="row">
-				<div class="col-md-4 col-sm-4"></div>
-				<div class="col-md-4 col-sm-6">
-					<div class="__enylos">
-						<div class="text-center __enyomodhed">
-							<img src="assets/img/logo.png" class="">
-							<h4 class="modal-title">Sign in</h4>
-							<hr>
-						</div>
+		<div class="__evdo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-sm-2"></div>
+					<div class="col-md-8 col-sm-8">
+						<p class="__evpc" id="contact">Contact Us</p>
 						<form action="" method="POST" role="form" id="fileForm" class="__joiff">
 
-							<div class="form-group">
-								<label for="" class="__evla">Email Address</label>
-								<input type="text" class="form-control __evfo" id="" placeholder="">
-							</div><br>
-
-							<div class="form-group">
-								<label for="" class="__evla">Password </label>
-								<input type="text" class="form-control __evfo" id="" placeholder="">
-							</div>
-
 							<div class="row">
-								<div class="col-md-7 col-sm-7">
-									<div>
-										<label class="check">
-											<input type="checkbox"  name="is_name">
-									  		<span class="checkmark"></span>
-											Remember me
-										</label>
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<div class="form-group">
+										<label for="" class="__evla">First Name</label>
+										<input type="text" class="form-control __evfo" name="firstname" id = "txt" onkeyup = "Validate(this)" required />
+										<div id="errFirst"></div>   
 									</div>
 								</div>
-								<div class="col-md-5 col-sm-5">
-									<p><a href="forgot.html">Forgot Password</a></p>
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<div class="form-group">
+										<label for="" class="__evla">Last Name</label>
+										<input type="text" class="form-control __evfo" name="lastname" id = "txt" onkeyup = "Validate(this)" placeholder="" required />  
+										<div id="errLast"></div>
+									</div>
 								</div>
+							</div><br><br>
+
+							<div class="row">
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<div class="form-group">
+										<div class="form-group">
+											<label for="" class="__evla">Email Address</label>
+											<input type="text" class="form-control __evfo" id="" placeholder="">
+										</div><br>   
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<div class="form-group">
+										<label for="" class="__evla">Phone Number</label>
+										<input type="text" class="form-control __evfo" placeholder="" name="phonenumber" id="phone" maxlength="28" onkeyup="validatephone(this);" required placeholder="">
+									</div>
+								</div>
+							</div><br><br>
+
+							<div class="form-group">
+								<label for="" class="__evla">Message</label>
+								<textarea name="" id="input" class="form-control __evfo" rows="6" required="required"></textarea>
 							</div><br>
+
 							<div class="text-center">
-								<button type="submit" class="btn __enmodbtn">Log in</button>
-								<div class="__enno">
-									<a href="register.html">No Account please<span> Sign UP HERE</span></a>
-								</div>
+								<button type="submit" class="btn __evsubbtn">Send</button>
 							</div>
 						</form>
 					</div>
+					<div class="col-md-2 col-sm-2"></div>
 				</div>
-				<div class="col-md-4 col-sm-4"></div>
 			</div>
-		
-		</div><br><br>
-
+		</div>
 	</section>
 
 	<footer>
