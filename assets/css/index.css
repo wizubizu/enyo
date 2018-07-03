@@ -252,6 +252,17 @@
     width: 140px;
   }
 
+  #picture_preview {
+    width: 70px;
+    height: 49px;
+    transition: all 1s ease-in;
+    margin-left: -70px;
+  }
+
+  .__picture p {
+    margin-left: -69px;
+  }
+
 
 }
 
@@ -468,12 +479,12 @@
   }
 
   .__picture {
-    width: 240px;
+    width: 157px;
   }
 
   #picture_preview {
-    width: 104px;
-    height: 104px;
+    width: 60px;
+    height: 45px;
   }
 
   .__picture .__pimg {
@@ -576,6 +587,10 @@
     font-size: 11px;
   }
 
+  .__inass {
+    font-size: 24px;
+  }
+
   
 
 }
@@ -607,6 +622,7 @@
 	.__evh {
     font-size: 30px;
     text-align: center;
+    margin-top: 23%;
   }
 
   .__entak{
@@ -674,6 +690,15 @@
 
   .__evpp {
     margin-left: 40px;
+  }
+
+  .__inass {
+    font-size: 16px;
+    padding: 10px 36px 0;
+  }
+
+  .__evbg {
+    height: 44px;
   }
 
   
@@ -829,6 +854,18 @@
 
   .__enbp img{
     width: 240px;
+  }
+
+  .check {
+    font-size: 9px;
+  }
+
+  .__fop{
+    font-size: 11px;
+  }
+
+  .__inass {
+    font-size: 14px;
   }
 
 }
