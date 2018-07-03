@@ -479,12 +479,17 @@
   }
 
   .__picture {
-    width: 157px;
+    width: 100%;
   }
 
   #picture_preview {
     width: 60px;
     height: 45px;
+    margin-left: 10px;
+  }
+
+  .__picture p {
+    margin-left: 10px;
   }
 
   .__picture .__pimg {
